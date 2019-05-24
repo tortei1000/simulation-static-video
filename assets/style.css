@@ -22,6 +22,7 @@ body{
 }
 
 .image{
+  display: block;
   box-shadow: 3px 3px black;
   background-image: url('https://images.unsplash.com/photo-1558096753-870bfd893ca7?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80');
   background-repeat: no-repeat;
@@ -41,7 +42,7 @@ body{
   border: solid;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-around;
   position: relative;
   top: 8em;
   
