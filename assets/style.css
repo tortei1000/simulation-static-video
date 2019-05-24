@@ -1,0 +1,107 @@
+body{
+  background: rgb(219, 213, 213);
+  padding: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+  max-width: 100vw;
+}
+
+.navbar{
+  background-image: linear-gradient(rgb(59, 41, 41), rgb(255, 0, 200));
+  height: 3em;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 40px;
+  position: fixed;
+  z-index: 100;
+  
+}
+
+.image{
+  box-shadow: 3px 3px black;
+  background-image: url('https://images.unsplash.com/photo-1558096753-870bfd893ca7?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80');
+  background-repeat: no-repeat;
+  block-size: cover;
+  background-position: center;
+  height: 300px;
+  width: 50%;
+  float: left;
+  margin: 0.5em;
+}
+.link{
+  text-decoration: none;
+  font-size: 30px;
+  cursor: pointer;
+}
+.div_article{
+  border: solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+  top: 8em;
+  
+}
+
+.text_image{
+  
+}
+.text{
+  font-size: 30px;
+  list-style: none;
+}
+
+.footer{
+  height: 1.5em;
+  background: green;
+  position: absolute;
+  bottom: -380px;
+  width: 100vw;
+  font-size: 30px;
+  margin-top: 3em;
+  text-align: center;
+  font-size: 30px;
+}
+div p{
+  color: red;
+  font-size: 20px;
+
+}
+
+#word {
+  color: red;
+  font-size: 38px;
+  font-weight: 1000;
+  text-shadow: 1px 1px black;
+}
+
+#word:hover{
+  
+  animation-name: spinner;
+  animation-duration: 5s;
+  transition-duration: 2s;
+  text-shadow: none;
+}
+
+@keyframes spinner {
+  from {
+    transform: rotate(0deg);
+    
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.nums:nth-child(2){
+  color: green;
+}
+
+
+ul li + p {
+  color: blue;
+}
